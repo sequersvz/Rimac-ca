@@ -1,0 +1,204 @@
+// ya aqui escribe tu css de siempre
+/*****************/
+.camp_tituloDT {
+  margin-top: 85px;
+  font-family: Lato;
+  font-style: Regular, Light;
+  font-size: 28px;
+  line-height: 36px;
+  align: left;
+  vertical-align: Top;
+}
+.camp_tituloDTClub {
+  font-family: Lato;
+  font-style: Regular, Light;
+  font-size: 28px;
+  line-height: 36px;
+  align: left;
+  vertical-align: Top;
+  color: #f0353b;
+  float: left;
+}
+.camp_editarDT {
+  margin-left: 10px;
+  font-family: Lato;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 15px;
+  align: left;
+  vertical-align: top;
+  line-height: 48px;
+  margin-top: 16px;
+  color: #939dff;
+}
+.seccion_comparte {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #676f8f;
+  margin-top: 80px;
+}
+.espacio {
+  margin-top: 34px;
+}
+.seccion_convocar {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #494f66;
+}
+.texto_terminos {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #a9b1d1;
+}
+.texto_inferior {
+  /* Recuerda avisar a tu convocado que nos contactaremos con él/ella. Una vez que haya adquirido un seguro con nosotros, vas sumando goles. */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  color: #676f8f;
+  margin-top: 26px;
+}
+.titulo_convocados {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.2px;
+  color: #494f66;
+}
+#referenciador .referidos .list__full .title-container.titulo_lista li {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+
+  color: #494f66;
+}
+#referenciador .referidos .list__full .title-container li {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 50px;
+}
+.dev_linea {
+  border-bottom: 1px solid #edeff5;
+}
+.camp_top {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #676f8f;
+}
+.camp_top_ver {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #939dff;
+  margin-top: 8px;
+}
+.margin_top45 {
+  margin-top: 45px;
+}
+.img_dt.pc {
+  display: block;
+}
+.img_dt.movil {
+  display: none;
+}
+.muestra_pc {
+  display: block;
+}
+.muestra_movil {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .col.s2.link {
+    width: 100%;
+  }
+  .seccion_comparte {
+    display: none;
+  }
+  .img_dt.pc {
+    display: none;
+  }
+  .img_dt.movil {
+    display: block;
+  }
+  .css_movil_5 {
+    width: 60% !important;
+  }
+  .css_movil_3 {
+    width: 40% !important;
+  }
+  .referenciador__header {
+    background-image: none !important;
+    background-color: #fff !important;
+    height: auto;
+  }
+  .camp_tituloDT {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .muestra_pc {
+    display: none;
+  }
+  .muestra_movil {
+    display: block;
+  }
+  .col.l11 {
+    width: 100%;
+  }
+  .l11 .l6 {
+    width: 50%;
+  }
+  .dev_linea {
+    border-bottom: 1px solid #363636;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+}
+.img_dt_xd {
+  background-image: url($ASSETS_FOLDER+'images/man.png');
+  width: 200px;
+  height: 225px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
+.tablaInvocados {
+  min-width: 600px;
+}
+.tablaInvocados__wrap {
+  overflow: auto !important;
+}
+.subrayadoSocio{
+  text-decoration: underline;
+}
+.wrapModalRimacProteccionDatos {
+  max-width: 1500px;
+}
